@@ -1,0 +1,16 @@
+<launch>
+
+  <machine name="localhost" address="localhost" default="true" />
+
+<node name="gps_sensor_sim" pkg="dis" type="gps_sensor_sim.py" output="screen"> </node>
+
+<!-- This has problems. It starts up dis_sender.py, but dis_sender.py
+     attempts to import some files, which it can't find in the current
+     directory. Needs some way to fully specify the path to the supporting
+     python files.
+ -->
+<node name="dis_sender" pkg="dis" type="dis_sender.py" output="screen"> </node>
+
+
+
+</launch>

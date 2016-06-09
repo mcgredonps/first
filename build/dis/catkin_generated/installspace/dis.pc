@@ -1,0 +1,8 @@
+prefix=/home/mcgredo/projects/first/install
+
+Name: dis
+Description: Description of dis
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mcgredo/projects/first/install/lib 
+Requires: 

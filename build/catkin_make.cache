@@ -1,0 +1,2 @@
+dis
+-DCATKIN_DEVEL_PREFIX=/home/mcgredo/projects/first/devel -DCMAKE_INSTALL_PREFIX=/home/mcgredo/projects/first/install -G Unix Makefiles
